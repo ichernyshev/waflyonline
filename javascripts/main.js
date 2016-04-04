@@ -2,8 +2,7 @@ console.log('This would be the main JS file.');
 
 //JavaScript
 function myFunction() {
-document.write("Добро пожаловать на мою страницу!<br>");
-document.write("Это JavaScript!<br>");
+alert("Это моя страница")
 }
 
 //BOM samples
