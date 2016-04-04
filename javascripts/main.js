@@ -2,10 +2,9 @@ console.log('This would be the main JS file.');
 
 //JQuery
 function hideImg() {
-    $( "#clickme" ).click(function() {
-        $( "#img" ).fadeOut( "slow", function() {
-        });
-    });
+    $("btn1").click(function(){
+    $("img").fadeOut();
+});
 }
 function showImg() {
     $('article img').fadeIn()
