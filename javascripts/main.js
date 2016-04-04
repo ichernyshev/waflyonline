@@ -2,7 +2,9 @@ console.log('This would be the main JS file.');
 
 //JavaScript
 function myFunction() {
-alert("Это моя страница")
+var newWin = window.open("about:blank", "hello", "width=200,height=200");
+
+newWin.document.write("Страница Чернышева Ильи!");
 }
 
 //BOM samples
