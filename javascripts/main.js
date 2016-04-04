@@ -1,5 +1,12 @@
 console.log('This would be the main JS file.');
 
+//JQuery
+function hideImg() {
+    $('article img').fadeOut()
+}
+function showImg() {
+    $('article img').fadeIn()
+}
 //JavaScript
 function myFunction() {
 var newWin = window.open("about:blank", "hello", "width=200,height=200");
