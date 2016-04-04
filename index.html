@@ -109,13 +109,25 @@
 			<section id="dom_samples">
                 		<a href="javascript:setupMessageButton('Привет!', 'Это пример DOM');" class="btn">Показать сообщение</a>
             		</section>
+            		
+            		</script>
+<script>
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $("img").fadeOut()
+    });
+    $(".btn2").click(function(){
+        $("img").fadeIn();
+    });
+});
+</script>
 			
 			<h3>
 			<a id="jquery" class="anchor" href="#jquery" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>jQuery</h3>
 			<article>
 				<section id="jquery_samples">
                 			<a href="javascript:hideImg();" class="btn1">Скрыть картинку</a>
-                			<a href="javascript:showImg();" class="btn">Показать картинку</a>
+                			<a href="javascript:showImg();" class="btn2">Показать картинку</a>
             			</section>
             		</article>
 			
